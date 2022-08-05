@@ -1,6 +1,6 @@
 import React from "react";
 import Aboutme from "../components/Aboutme";
-import Navbar from "../components/NavBar";
+import Navbar from "../components/Navbar";
 import Projects from "../components/Projects";
 
 export default function Home() {
