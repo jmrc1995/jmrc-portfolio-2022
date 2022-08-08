@@ -12,7 +12,7 @@ function Projects() {
     {
       projectName: "Rest Countries API",
       desc: "An application that allows a user to filter through regions and indivual countries to return some information on the selected country",
-      link: "/#",
+      link: "https://rest-countries-nextjs-zeta.vercel.app/",
     },
 
     {
@@ -32,7 +32,7 @@ function Projects() {
     {
       projectName: "Greensia Earthworks Landing Page",
       desc: "Landing page",
-      link: "https://jmrc1995.github.io/Room-Homepage-Master/",
+      link: "https://jmrc1995.github.io/GEW.plp/",
     },
     {
       projectName: "Room-Homepage",
