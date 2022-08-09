@@ -13,9 +13,10 @@ module.exports = {
       '1/2': '50%',
     },
     colors:{
-      'orange':'#fbbf24',
+      'orange':'#FC9E4F',
+      'green':'#4F9D69',
       'white':'#ffffff',
-      'blue' :'#202C36',
+      'blue' :'#004BA8',
       'black': '#000000',
       'darkGrey':'#222222'
 

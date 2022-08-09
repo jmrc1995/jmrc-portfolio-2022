@@ -1,12 +1,13 @@
 import React from "react";
+import { useState } from "react";
 import { AiOutlineLink, AiOutlineGithub } from "react-icons/ai";
 import { TbBrandTailwind } from "react-icons/tb";
 import { IoLogoReact } from "react-icons/io";
 
 function Projects() {
-  const DesignCard = () => {
-    return <div></div>;
-  };
+
+
+const [inProgress, setInProgress] = useState("In Progress")
 
   const projects = [
     {
@@ -22,6 +23,7 @@ function Projects() {
       disc: "User access may be limited, click here for more info",
       link: "https://jmrc1995.github.io/goodsoup/",
       git: "https://github.com/jmrc1995/goodsoup",
+      progress: " ",
     },
     {
       projectName: "Todo",
@@ -56,15 +58,30 @@ function Projects() {
           {" "}
           {projects.map((project) => (
             <li className="mt-5 md:mt-0 " key={project.projectName}>
-              <div className="flex">
-                <a href={project.link} className="font-dmserif text-lg flex items-center">
+              <div className="flex items-center">
+                <a
+                  href={project.link}
+                  className="font-dmserif text-lg flex items-center"
+                >
                   {project.projectName}
                   <AiOutlineLink size={20} className="hover:text-orange ml-2" />
                 </a>
-                <a href={project.git} className="font-dmserif text-lg flex items-center ">
+                <a
+                  href={project.git}
+                  className="font-dmserif text-lg flex items-center "
+                >
                   <AiOutlineGithub className="hover:text-orange ml-1" />
                 </a>
+
+                {project.progress && (
+                  <button className="border rounded-full text-md  px-2 h-5 ml-2 text-orange">
+                    {project.progress}
+                  </button>
+                )}
+               
               </div>
+
+            
 
               <p className="font-opensans text-sm"> {project.desc}</p>
             </li>
@@ -88,7 +105,10 @@ function Projects() {
                   {design.projectName}{" "}
                   <AiOutlineLink size={20} className="hover:text-orange ml-2" />
                 </a>
-                <a href={design.git} className="font-dmserif text-lg flex items-center  ">
+                <a
+                  href={design.git}
+                  className="font-dmserif text-lg flex items-center  "
+                >
                   <AiOutlineGithub className="hover:text-orange ml-1" />
                 </a>
               </div>
