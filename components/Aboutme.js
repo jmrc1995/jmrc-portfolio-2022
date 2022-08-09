@@ -8,7 +8,7 @@ function Aboutme() {
             <div className="border border-orange overflow-hidden max-w-md shadow-2xl shadow-orange rounded-full ">
               <img
                 src={"/JomarApple.png"}
-                alt="a picture of jomars avatar"
+                alt="a picture of jomars"
                 className="w-full max-w-sm rounded-full "
               />
             </div>
