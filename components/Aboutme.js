@@ -18,24 +18,17 @@ function Aboutme() {
             About Me
           </h1>
 
-          <p className="text-sm font-opensans mt-5 font-light leading-relaxed  ">
-            Welcome, my name is
-            <span className="text-orange font-bold"> Jomar Cardoza</span>. I am a
-            recent college graduate from NJCU with a bachelor's degree in
+          <p className="text-sm font-opensans mt-5 font-light leading-relaxed ">
+            Welcome, my name is <span className="text-orange font-bold"> Jomar Cardoza</span>. I am a
+            recent college graduate from NJCU with a bachelor&apos;s degree in
             computer science. My love for programming stemmed from my passion
             for audio engineering and production. The flexibility and creativity
             that audio engineering brought on from a young age has allowed me to
             expand my knowledge of writing and understanding code outside my
-            degree. I want to use my skills in web development to bring people's
+            degree. I want to use my skills in web development to bring people&apos;s
             ideas to reality and create solutions that will make their daily
             lives effortless. I am currently open to work opportunities as I
             think I would be a great asset to any team.
-            {/* Hi, my name is{" "}
-              <span className="text-orange font-bold">Jomar Cardoza</span> I am
-              a passionate creator that enjoys audio engineering and production.
-              With the enviorment and workflow presented to me by the world of
-              audio, the transition into programming felt seamless. Both, give
-              me the freedom to create, learn, and produce what comes to mind. */}
           </p>
         </div>
       </div>
