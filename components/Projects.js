@@ -20,7 +20,7 @@ const [inProgress, setInProgress] = useState("In Progress")
     {
       projectName: "Good Soup - Spotify API",
       desc: "An application that allows an authenticated spotify user to filter through their 20 most played tracks",
-      disc: "User access may be limited, click here for more info",
+      disc: "To use this application, please email jomar.cardoza95@gmail.com with your Spotify email address.",
       link: "https://jmrc1995.github.io/goodsoup/",
       git: "https://github.com/jmrc1995/goodsoup",
       progress: " ",
@@ -84,6 +84,7 @@ const [inProgress, setInProgress] = useState("In Progress")
             
 
               <p className="font-opensans text-sm"> {project.desc}</p>
+              <p className="font-bold font-opensans text-xs mt-2 text-orange"> {project.disc}</p>
             </li>
           ))}
         </ul>
