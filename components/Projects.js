@@ -1,13 +1,10 @@
 import React from "react";
-import { useState } from "react";
 import { AiOutlineLink, AiOutlineGithub } from "react-icons/ai";
-import { TbBrandTailwind } from "react-icons/tb";
-import { IoLogoReact } from "react-icons/io";
+
 
 function Projects() {
 
-
-const [inProgress, setInProgress] = useState("In Progress")
+// const [inProgress, setInProgress] = useState("In Progress")
 
   const projects = [
     {
@@ -26,10 +23,10 @@ const [inProgress, setInProgress] = useState("In Progress")
       progress: " ",
     },
     {
-      projectName: "Todo",
-      desc: "A simple task managing application.",
-      link: "https://jmrc1995.github.io/Todo-App-JMRC/",
-      git: "https://github.com/jmrc1995/Todo-App-JMRC/tree/master",
+      projectName: "Growing with Papa",
+      desc: `An online platform for the "GWP Podcast", a series focused on personal finance, wealth building, and holistic financial wellness.`,
+      link: "https://www.gwp.today/",
+      git: "https://github.com/gwp-podcast",
     },
   ];
 
