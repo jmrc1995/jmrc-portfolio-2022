@@ -38,7 +38,7 @@ const Navbar = () => {
         </h1>
         <div className="flex items-center flex-end text-white dark:text-black">
           {renderThemeChanger()}
-          <a href="./Jomar Cardoza Resume 2022.09SE.pdf">
+          <a href="./Jomar Cardoza_Resume_11.2023 (2).pdf">
             <FcGlobe className="w-6 h-10 ml-2 cursor-pointer" />
           </a>
         </div>
