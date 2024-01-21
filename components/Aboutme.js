@@ -21,14 +21,17 @@ function Aboutme() {
           <p className="text-sm font-opensans mt-5 font-light leading-relaxed ">
             Welcome, my name is{" "}
             <span className="text-orange font-bold"> Jomar Cardoza</span>. My
-            love for programming stemmed from my passion for audio engineering
-            and production. The flexibility and creativity that audio
-            engineering brought on from a young age has allowed me to expand my
-            knowledge of writing and understanding code outside my degree. I
-            want to use my skills in web development to bring people&apos;s
-            ideas to reality and create solutions that will make their daily
-            lives effortless. I am currently open to work opportunities as I
-            think I would be a great asset to any team.
+            journey into programming was ignited by my deep-rooted fascination
+            with audio engineering and production. The boundless flexibility and
+            creative avenues that audio engineering introduced to me at a young
+            age have beautifully intertwined with my passion for coding, a
+            skillset I've honed beyond my academic pursuits. My aspiration is to
+            leverage my proficiency in web development to transform people&apos;s
+            concepts into tangible realities. I aspire to craft solutions that
+            streamline their everyday lives, making them more effortless and
+            efficient. Presently, I am actively seeking opportunities to
+            contribute my expertise to dynamic teams, believing that I can be a
+            valuable asset wherever I lend my talents.
           </p>
         </div>
       </div>
