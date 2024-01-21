@@ -3,6 +3,7 @@ import { AiOutlineLink, AiOutlineGithub } from "react-icons/ai";
 
 
 function Projects() {
+  
 
 // const [inProgress, setInProgress] = useState("In Progress")
 
@@ -46,7 +47,7 @@ function Projects() {
   ];
 
   return (
-    <div className="  h-full p-10 ">
+    <div className="  h-screen  ">
       <div className="grid grid-cols-1 lg:grid-cols-2">
         <h1 className="grid grid-row-1 lg:justify-items-end md:mr-20 font-dmserif font-bold text-5xl text-white dark:text-black ">
           Projects
